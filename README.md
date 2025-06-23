@@ -1,4 +1,4 @@
-# Animated Glass UI Component Ideas
+# Animated Glass UI Components
 
 ## Getting Started
 To get started with the project, use the following commands:
