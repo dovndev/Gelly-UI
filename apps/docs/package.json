@@ -1,5 +1,5 @@
 {
-  "name": "glass-ui-docs",
+  "name": "gelly-ui-docs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@glass-ui/core": "workspace:*",
+    "@gelly-ui/core": "workspace:*",
     "autoprefixer": "^10.0.0",
     "next": "^14.0.0",
     "postcss": "^8.0.0",
