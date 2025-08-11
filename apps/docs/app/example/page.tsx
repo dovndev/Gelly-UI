@@ -119,7 +119,7 @@ export default function Showcase() {
           <h2 className="text-xl font-semibold mb-2">GellySwitch</h2>
           <GellySwitch
             checked={tab === 1}
-            onChange={v => setTab(v ? 1 : 0)}
+            onChange={(v: boolean) => setTab(v ? 1 : 0)}
             label="Toggle Tab 1"
           />
         </GellyCard>
@@ -127,7 +127,7 @@ export default function Showcase() {
         {/* Gelly Checkbox Example */}
         <GellyCard className="p-6">
           <h2 className="text-xl font-semibold mb-2">GellyCheckbox</h2>
-          <GellyCheckbox label="Accept Terms" checked={tab === 2} onChange={e => setTab(e.target.checked ? 2 : 0)} />
+          <GellyCheckbox label="Accept Terms" checked={tab === 2} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTab(e.target.checked ? 2 : 0)} />
         </GellyCard>
 
         {/* Gelly Textarea Example */}
