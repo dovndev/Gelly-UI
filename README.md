@@ -1,4 +1,4 @@
-# Animated Gelly UI Component Ideas
+# Animated Gelly UI Kit
 
 ## Getting Started
 To get started with the project, use the following commands:
